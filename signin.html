@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pradeepa school</title>
+    <link rel="stylesheet" href="sc.css">
+</head>
+<body>
+<div id="cont">
+  <h1>PRADEEPA SCHOOL sign in</h1>
+    <form>
+        <label>user name</label>
+        <input type="text" placeholder="user name">
+        <br>
+        <label>password</label>
+        <input type="password" id="psw" name="psw"
+         pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}"
+         title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 " required/>
+        <br>
+        <button type="button">Signin</button>
+        <br>
+       </form>
+</div>
+</body>
+</html>
